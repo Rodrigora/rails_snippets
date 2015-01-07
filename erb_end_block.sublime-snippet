@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[<% end %>]]></content>
+  <tabTrigger><![CDATA[ee]]></tabTrigger>
+  <scope>source.js, text.html.ruby</scope>
+</snippet>

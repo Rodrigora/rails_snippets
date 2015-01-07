@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[expect(${1}).to ${2}]]></content>
+  <tabTrigger>exp</tabTrigger>
+  <scope>source.rb, source.ruby</scope>
+  <description>Rspec expect().to</description>
+</snippet>
+
+<snippet>
+  <content><![CDATA[expect(${1}).to be(false)]]></content>
+  <tabTrigger>expfalse</tabTrigger>
+  <scope>source.rb, source.ruby</scope>
+  <description>Rspec expect().to</description>
+</snippet>
+
+<snippet>
+  <content><![CDATA[expect(${1}).to be(false)]]></content>
+  <tabTrigger>exptrue</tabTrigger>
+  <scope>source.rb, source.ruby</scope>
+  <description>Rspec expect().to</description>
+</snippet>

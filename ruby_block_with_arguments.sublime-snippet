@@ -1,0 +1,9 @@
+<snippet>
+  <content>
+<![CDATA[do |${1:arg1}|
+  ${2}
+end]]></content>
+  <tabTrigger>rdoa</tabTrigger>
+  <scope>source.rb, source.ruby</scope>
+  <description>Simple ruby block</description>
+</snippet>

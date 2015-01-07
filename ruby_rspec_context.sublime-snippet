@@ -1,0 +1,13 @@
+<snippet>
+  <content>
+<![CDATA[context '${1}' do
+  before do
+  end
+
+  it '' do
+  end
+end]]></content>
+  <tabTrigger>rct</tabTrigger>
+  <scope>source.rb, source.ruby</scope>
+  <description>Simple ruby block</description>
+</snippet>

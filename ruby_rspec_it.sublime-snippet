@@ -1,0 +1,9 @@
+<snippet>
+  <content>
+<![CDATA[it '${1}' do
+  ${2}
+end]]></content>
+  <tabTrigger>rit</tabTrigger>
+  <scope>source.rb, source.ruby</scope>
+  <description>Rspec it block</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content>
+<![CDATA[describe ${1} do
+
+  context '${2}' do
+
+    it '${3}' do
+    end
+  end
+end]]></content>
+  <tabTrigger>rds</tabTrigger>
+  <scope>source.rb, source.ruby</scope>
+  <description>Rspec describe block</description>
+</snippet>
