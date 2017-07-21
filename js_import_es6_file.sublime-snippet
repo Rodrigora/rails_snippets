@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[import ${1} from './${1}';]]></content>
+  <tabTrigger>jsif</tabTrigger>
+  <scope>source.js, source.es6</scope>
+  <description>Import file</description>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+  <content>
+<![CDATA[import React, {PropTypes, Component} from 'react';
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends Component {
+	static propTypes = {
+	}
+
+	constructor (props) {
+		super(props);
+
+
+		this.state = {
+		}
+	}
+
+	render () {
+
+		return (
+		);
+	}
+}
+
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}};]]></content>
+  <tabTrigger>rcc</tabTrigger>
+  <scope>source.js, source.es6</scope>
+  <description>Create React Component class</description>
+</snippet>

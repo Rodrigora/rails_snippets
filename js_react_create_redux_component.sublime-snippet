@@ -1,0 +1,38 @@
+<snippet>
+  <content>
+<![CDATA[import React, {PropTypes, Component} from 'react';
+import {connect} from 'react-redux';
+
+class ${1} extends Component {
+	static propTypes = {
+	}
+
+	constructor (props) {
+		super(props);
+
+
+		this.state = {
+		}
+	}
+
+	render () {
+
+		return (
+		);
+	}
+}
+
+const mapStateToProps = (state) => ({
+
+});
+
+const mapDispatchToProps = (dispatch) => ({
+
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(${1});
+]]></content>
+  <tabTrigger>rrc</tabTrigger>
+  <scope>source.js, source.es6</scope>
+  <description>Create React Redux Component</description>
+</snippet>
