@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[const { ${1} } = this.props;]]></content>
+  <tabTrigger>jsdp</tabTrigger>
+  <scope>source.js, source.es6</scope>
+  <description>es6 deconstruct props</description>
+</snippet>

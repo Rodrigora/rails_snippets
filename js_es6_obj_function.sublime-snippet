@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[const ${1} = (${2}) => ({
+	${3}
+});]]></content>
+  <tabTrigger>efun</tabTrigger>
+  <scope>source.js, source.es6</scope>
+  <description>ES6 function returning object</description>
+</snippet>

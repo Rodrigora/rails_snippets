@@ -1,0 +1,9 @@
+<snippet>
+  <content>
+<![CDATA[componentDidUpdate () {
+	${1}
+}]]></content>
+  <tabTrigger>rcdu</tabTrigger>
+  <scope>source.js, source.es6</scope>
+  <description>React componentDidMount method</description>
+</snippet>

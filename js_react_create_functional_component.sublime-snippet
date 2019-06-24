@@ -1,0 +1,13 @@
+<snippet>
+  <content>
+<![CDATA[import React, {PropTypes} from 'react';
+
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} = ({${2:props}}) => (
+	${3}
+);
+
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}};]]></content>
+  <tabTrigger>rcf</tabTrigger>
+  <scope>source.js, source.es6</scope>
+  <description>Create React Functional Stateless Component</description>
+</snippet>

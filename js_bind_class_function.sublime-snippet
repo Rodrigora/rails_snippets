@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[this.${1} = this.${1}.bind(this);]]></content>
+  <tabTrigger>jsb</tabTrigger>
+  <scope>source.js, source.es6</scope>
+  <description>Bind es6 class function</description>
+</snippet>

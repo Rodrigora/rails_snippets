@@ -1,0 +1,9 @@
+<snippet>
+  <content>
+<![CDATA[shouldComponentUpdate (nextProps, nextState) {
+	${1}
+}]]></content>
+  <tabTrigger>rscu</tabTrigger>
+  <scope>source.js, source.es6</scope>
+  <description>React shouldComponentUpdate method</description>
+</snippet>
