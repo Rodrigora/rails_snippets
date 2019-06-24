@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[${1}: ${2}]]></content>
+  <tabTrigger>=></tabTrigger>
+  <scope>source.rb, source.ruby</scope>
+  <description>Simple ruby block</description>
+</snippet>
