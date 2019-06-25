@@ -22,6 +22,7 @@ Rspec let | rlet | `let(:${1}) { ${2} } `
 React componentDidMount method | rcdu | `componentDidUpdate () {`<br>`	${1}`<br>`}`
 Create React Component class | rcc | `import React, {PropTypes, Component} from 'react';`<br>`class ${1:${TM_FILENAME/(.+)\..+.*/$1/:name}} extends Component {`<br>`	static propTypes = {`<br>`	}`<br>`	constructor (props) {`<br>`		super(props);`<br>`		this.state = {`<br>`		}`<br>`	}`<br>`	render () {`<br>`		return (`<br>`		);`<br>`	}`<br>`}`<br>`export default ${1:${TM_FILENAME/(.+)\..+.*/$1/:name}};`
 es6 deconstruct state | jsds | `const { ${1} } = this.state;`
+Rspec let symbol to create | rletf | `let(:${1}) { Fabricate :${1} } `
 React componentWillReceiveProps method | rcwr | `componentWillReceiveProps (nextProps) {`<br>`	${1}`<br>`}`
 Import module | jsi | `import ${1} from '${1}';`
 Simple ruby block | => | `${1}: ${2}`

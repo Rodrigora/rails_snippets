@@ -1,0 +1,7 @@
+<snippet>
+  <content>
+<![CDATA[let(:${1}) { Fabricate :${1} } ]]></content>
+  <tabTrigger>rletf</tabTrigger>
+  <scope>source.rb, source.ruby</scope>
+  <description>Rspec let symbol to create</description>
+</snippet>
