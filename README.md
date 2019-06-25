@@ -2,4 +2,4 @@
 Sublime Text snippets for Rails/React projects
 
 
-## [Snippets List](./SNIPPETS.md)
+[Snippets List](./SNIPPETS.md)
